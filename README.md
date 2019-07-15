@@ -4,8 +4,8 @@ Tutorial:
 # ansi_ec2_apache_3
 
 ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ pwd
-/home/ec2-user/ansi_ec2_apache_3  
-[ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ ansible-playbook site.yml  
+/home/ec2-user/ansi_ec2_apache_3/CreatingEC2    
+[ec2-user@ip-172-31-43-65 CreatingEC2]$ ansible-playbook site.yml  
 ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ vi hosts  
 [local]  
 localhost  
