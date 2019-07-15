@@ -2,7 +2,5 @@
 localhost
 
 [webserver]
-3.85.125.147 ansible_ssh_user=ubuntu
-#54.234.72.77 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=aws-private.pem
 #52.54.116.87 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=../aws-private.pem
-54.85.86.34 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=../aws-private.pem
+3.94.120.76 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=../aws-private.pem
