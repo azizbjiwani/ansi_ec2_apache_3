@@ -6,6 +6,11 @@ Tutorial:
 ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ pwd
 /home/ec2-user/ansi_ec2_apache_3
 [ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ ansible-playbook site.yml
+ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ vi hosts
+[local]
+localhost
+[webserver]
+3.94.120.76 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=../aws-private.pem
 
 ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ git init
 Reinitialized existing Git repository in /home/ec2-user/ansi_ec2_apache_3/.git/
