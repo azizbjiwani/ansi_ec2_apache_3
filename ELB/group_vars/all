@@ -1,6 +1,6 @@
 region: us-east-1
-instance_type: t2.nano
-ami: ami-49c9295f  # Ubuntu 14.04 LTS
+instance_type: t2.micro
+ami: ami-026c8acd92718196b  # Ubuntu 
 app_code_user: "ubuntu" # remote user
 env: demo
-pem_key: einsteinish # key.pem
+pem_key: testing-staging-key # key.pem
