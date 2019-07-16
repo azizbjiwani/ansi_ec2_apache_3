@@ -1,5 +1,5 @@
 - name: Add user keys
- #hosts: 3.85.125.147
+ #hosts: 3.85.125.147  -- public key of newly created aws remote instance
   hosts: 3.81.149.60
   #become: true
   #become_method: sudo
