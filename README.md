@@ -19,3 +19,13 @@ Reinitialized existing Git repository in /home/ec2-user/ansi_ec2_apache_3/.git/
 [ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ git remote add origin https://github.com/azizbjiwani/ansi_ec2_apache_3.git  
 [ec2-user@ip-172-31-43-65 ansi_ec2_apache_3]$ git push -u origin master  
 
+  
+update site.yml with public ip of newly created remote host   
+AddingKeys/site.yml      
+  hosts: 3.81.149.60   
+  
+Always delete aws-private.pem key file under project directory (ansi_ec2_apache_3) while creating the new project (or during first run of the project)  
+
+
+
+
