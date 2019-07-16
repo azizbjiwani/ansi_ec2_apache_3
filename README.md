@@ -24,7 +24,10 @@ update site.yml with public ip of newly created remote host
 AddingKeys/site.yml      
   hosts: 3.81.149.60   
   
-Always delete aws-private.pem key file under project directory (ansi_ec2_apache_3) while creating the new project (or during first run of the project)  
+make sure aws-private.pem key file is preseent under project directory (ansi_ec2_apache_3)   
+  
+[ec2-user@ip-172-31-43-65 AddingKeys]$ ansible-playbook -i ../hosts site.yml  
+ 
 
 
 
