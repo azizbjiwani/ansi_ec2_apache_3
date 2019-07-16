@@ -33,7 +33,9 @@ make sure aws-private.pem key file is preseent under project directory (ansi_ec2
   
 [ec2-user@ip-172-31-43-65 AddingKeys]$ ansible-playbook -i ../hosts site.yml  
   
-Dont use ELB project  
+ELB project  
+update group_vars/all and site.yml  
+ansible-playbook site.yml  --private-key /home/ec2-user/ansi_ec2_apache_3/aws-private.pem  
 
  
 
