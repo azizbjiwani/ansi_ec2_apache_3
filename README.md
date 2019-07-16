@@ -39,13 +39,14 @@ ansible-playbook site.yml  --private-key /home/ec2-user/ansi_ec2_apache_3/aws-pr
 
 #############################################################################################    
   
-[ec2-user@ip-172-31-43-65 CreatingEC2]$ ansible-playbook site.yml
-[ec2-user@ip-172-31-43-65 createaws]$ cp ../../ansi_ec2_apache_3/aws-private.pem .
-ec2-user@ip-172-31-43-65 AddingKeys]$ vi site.yml
-hosts: 18.206.188.182
-[ec2-user@ip-172-31-43-65 AddingKeys]$ ansible-playbook -i ../hosts site.yml
-ec2-user@ip-172-31-43-65 ELB]$ ansible-playbook site.yml --private-key /home/ec2-user/ansi_ec2_apache_3/aws-private.pem
-Browser: http://18.206.188.182/ --> Welcome to nginx! --> WORKS  
+[ec2-user@ip-172-31-43-65 CreatingEC2]$ ansible-playbook site.yml  
+[ec2-user@ip-172-31-43-65 createaws]$ cp ../../ansi_ec2_apache_3/aws-private.pem .  
+ec2-user@ip-172-31-43-65 AddingKeys]$ vi site.yml  
+hosts: 18.206.188.182  
+[ec2-user@ip-172-31-43-65 AddingKeys]$ ansible-playbook -i ../hosts site.yml  
+ec2-user@ip-172-31-43-65 ELB]$ ansible-playbook site.yml --private-key /home/ec2-user/ansi_ec2_apache_3/aws-private.pem  
+Browser: http://18.206.188.182/ --> Welcome to nginx! --> WORKS    
+
   
 
  
